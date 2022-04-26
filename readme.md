@@ -19,15 +19,20 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ### Common.bat
 Устанавливает все самые важные пакеты для windows такие как:
-* Все основные видео кодеки
-* Все пакеты visual c++
-* Браузер Google Chrome чистый
-* Архиватор 7-zip
-* AdwCleaner - простая программа для чистки аналог CCleaner
-* Dot Net пакеты все версий для поддержки старых программ
+* [Klite Codec Pack - Все основные видео кодеки](https://codecguide.com/)
+* [Microsoft Visual C++ Все версии](https://docs.microsoft.com/ru-ru/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+* [Google Chrome чистый](https://www.google.com/intl/ru_ru/chrome/)
+* [Архиватор 7-zip](https://www.7-zip.org/)
+* [AdwCleaner](https://ru.malwarebytes.com/adwcleaner/)
+* [Dot Net пакеты всеx версий](https://dotnet.microsoft.com/en-us/)
 
 ### GamingPrograms.bat
 Устанавливает лаунчеры игр и другое
-* Steam - самый популярный интернет магазин игр
-* EpicGame Launcher - интернет магазин с халявой
-* 
+* Discord
+* Steam
+* EpicGame Launcher 
+* PicoTorrent - легковестный бесплатный торрент клиент
+
+### NvidiaDrivers.bat
+* Актуальный игровой видеодрайвер
+* [Geforce Expirience](https://www.nvidia.com/ru-ru/geforce/geforce-experience/)
