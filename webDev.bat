@@ -1,6 +1,5 @@
 choco install git -y --ignore-checksums
 choco install php --version=7.4.29 -y --ignore-checksums
-choco install php -y --ignore-checksums
 choco install composer -y --ignore-checksums
 choco install nodejs.install --version=14.19.1 -y --ignore-checksums
 choco install python2 -y --ignore-checksums

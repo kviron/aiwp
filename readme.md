@@ -28,11 +28,29 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ### GamingPrograms.bat
 Устанавливает лаунчеры игр и другое
-* Discord
-* Steam
-* EpicGame Launcher 
-* PicoTorrent - легковестный бесплатный торрент клиент
+* [Discord](https://discord.com/download)
+* [Steam](https://store.steampowered.com/about/Steam?l=russian)
+* [EpicGames Launcher](https://store.epicgames.com/ru/download)
+* [PicoTorrent - легковестный бесплатный торрент клиент](https://picotorrent.org/)
 
 ### NvidiaDrivers.bat
+Для пользователе видеокарт Nvidia
 * Актуальный игровой видеодрайвер
 * [Geforce Expirience](https://www.nvidia.com/ru-ru/geforce/geforce-experience/)
+
+### WebDev.bat
+Программы для web разработчика php, js, python
+* [Git](https://git-scm.com/)
+* [Php version 7.4](https://www.php.net/downloads.php)
+* [Composer](https://getcomposer.org/)
+* [NodeJs ver 14.19.1](https://nodejs.org/en/)
+* [Python2 и python3](https://www.python.org/downloads/)
+* [Figma](https://www.figma.com/)
+* [Vscode](https://code.visualstudio.com/)
+* [OpenSsh](https://www.openssh.com/)
+* [Wget](https://www.gnu.org/software/wget/)
+* [Curl](https://curl.se/)
+* [Winscp](https://winscp.net/eng/docs/lang:ru)
+* [Wsl 2](https://docs.microsoft.com/ru-ru/windows/wsl/about)
+* [Ruby](https://www.ruby-lang.org/ru/)
+* [Yarn](https://yarnpkg.com/)
