@@ -1,13 +1,11 @@
-# Автоматизированная установка программ для windows 10
+# Автоматизированная установка программ для windows 10 / 11
 
 Первое что нужно сделать, для того что бы можно было воспользоваться автоматической установкой это:
 
 * Откройте командную строку (power shell) от имени администратора
-* Выполните две команды по очередно
-
-`Set-ExecutionPolicy AllSigned ` или `Set-ExecutionPolicy Bypass -Scope Process`
-
-Подвердите выполнение команды вписав `Y` а после одной из выполненых команд выполните следующую команду
+* Выполните одну из этих двух команд `Set-ExecutionPolicy AllSigned ` или `Set-ExecutionPolicy Bypass -Scope Process`
+* Подвердите выполнение команды вписав `Y` а после одной из выполненых команд выполните следующую команду
+* Следующим выполните эту команду
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
@@ -16,6 +14,15 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ## Описание файлов
 Описание всех файлов и устанавливающих программ
+
+## Возвращаем старое контекстное менб на Windows 11
+Для возвращения старого конектсного меню нужно либо запустит файл `W11ClassicMenu.bat`
+или же выполнить команду
+```
+reg.exe add “HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32” /f
+taskkill /F /IM explorer.exe
+start explorer.exe
+```
 
 ### Common.bat
 Устанавливает все самые важные пакеты для windows такие как:
