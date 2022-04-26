@@ -16,5 +16,8 @@ choco install curl -y --ignore-checksums
 choco install microsoft-windows-terminal -y --ignore-checksums
 choco install winscp.install -y --ignore-checksums
 choco install wsl2 -y --ignore-checksums
+choco install docker-desktop -y --ignore-checksums
+choco install docker-cli -y --ignore-checksums
+choco install docker-compose -y --ignore-checksums
 choco install ruby -y --ignore-checksums
 choco install yarn -y --ignore-checksums

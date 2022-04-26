@@ -25,6 +25,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * [Архиватор 7-zip](https://www.7-zip.org/)
 * [AdwCleaner](https://ru.malwarebytes.com/adwcleaner/)
 * [Dot Net пакеты всеx версий](https://dotnet.microsoft.com/en-us/)
+* [Flameshot](https://flameshot.org/)
 
 ### GamingPrograms.bat
 Устанавливает лаунчеры игр и другое
@@ -47,10 +48,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * [Python2 и python3](https://www.python.org/downloads/)
 * [Figma](https://www.figma.com/)
 * [Vscode](https://code.visualstudio.com/)
+* [Phpstorm](https://www.jetbrains.com/ru-ru/phpstorm/)
 * [OpenSsh](https://www.openssh.com/)
 * [Wget](https://www.gnu.org/software/wget/)
 * [Curl](https://curl.se/)
 * [Winscp](https://winscp.net/eng/docs/lang:ru)
 * [Wsl 2](https://docs.microsoft.com/ru-ru/windows/wsl/about)
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* [Docker Cli](https://docs.docker.com/engine/reference/run/)
 * [Ruby](https://www.ruby-lang.org/ru/)
 * [Yarn](https://yarnpkg.com/)
