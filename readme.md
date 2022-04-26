@@ -27,13 +27,20 @@ start explorer.exe
 choco install имя_программы -y --ignore-checksums
 ```
 
+Все доступные программы вы можете нанйти на странице [Community Maintained Packages](https://community.chocolatey.org/packages)
+
 Вы можете указывать основные параметры в команду
 * `-y` - Подтвердить автоматически все соглашения
 * `--ignore-checksums` - игнорировать проверку чексуммы, желательно всегда указывать
 * `-v`, `--version`  - Указать версию программы, если не указывать скачаеться самая послежняя
 
-Все доступные программы вы можете нанйти на странице [Community Maintained Packages](https://community.chocolatey.org/packages)
+Все доступные команды и параметры доступны на странице [Commands](https://docs.chocolatey.org/en-us/choco/commands/)
 
+## Удалить программу
+Для удаления каконибудь программы нужно выполнить команду
+```
+choco uninstall имя_программы
+```
 
 ## Описание файлов
 Описание всех файлов и устанавливающих программ
