@@ -51,9 +51,8 @@ choco uninstall имя_программы
 * [Microsoft Visual C++ Все версии](https://docs.microsoft.com/ru-ru/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 * [Google Chrome чистый](https://www.google.com/intl/ru_ru/chrome/)
 * [Архиватор 7-zip](https://www.7-zip.org/)
-* [AdwCleaner](https://ru.malwarebytes.com/adwcleaner/)
 * [Dot Net пакеты всеx версий](https://dotnet.microsoft.com/en-us/)
-* [Flameshot](https://flameshot.org/)
+* [Lightshot](https://app.prntscr.com/ru/)
 
 ### GamingPrograms.bat
 Устанавливает лаунчеры игр и другое
