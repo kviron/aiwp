@@ -7,6 +7,5 @@ choco install dotnetfx -y --ignore-checksums
 choco install dotnet3.5 -y --ignore-checksums
 choco install dotnet4.5.2 -y --ignore-checksums
 choco install k-litecodecpackmega -y --ignore-checksums
-choco install adwcleaner -y --ignore-checksums
 choco install imageresizerapp -y --ignore-checksums
 choco install flameshot -y --ignore-checksums
